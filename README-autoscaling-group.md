@@ -1,7 +1,7 @@
 # Launch Template, Target Group, Application Load Balancer & Auto Scaling Group — Documentation
 
 **By:** Jesswin Anto J
-**Date:** 28 July 2026
+
 
 ## Objective
 
