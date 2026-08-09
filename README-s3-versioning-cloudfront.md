@@ -28,12 +28,6 @@ Amazon S3 › Buckets › demo-hw-bucket-1-313828097658-ap-south-1-an › Proper
 > **NOTE**
 > With versioning enabled, re-uploading a file with the same name does not overwrite it — S3 keeps every version and assigns each a unique Version ID. This allows recovery of earlier file contents at any time.
 
-*Fig 1.1 — Versioning enabled*
-*Fig 1.2 — File uploaded*
-*Fig 1.3 — File re-uploaded (edited)*
-*Fig 1.4 — Show versions toggle*
-*Fig 1.5 — Version list*
-*Fig 1.6 — Multiple versions confirmed*
 
 **Step 5: Toggle the "Show versions" switch near the search bar**
 
@@ -68,14 +62,7 @@ Amazon S3 › Buckets › demo-hw-bucket-1-313828097658-ap-south-1-an › Object
 
 Amazon S3 › Buckets › demo-hw-bucket-1-313828097658-ap-south-1-an › Properties › Static website hosting
 
-*Fig 2.1 — Enable static website hosting*
-*Fig 2.2 — Index document set*
-*Fig 2.3 — Settings saved*
-*Fig 2.4 — Upload index.html*
-*Fig 2.5 — Upload complete*
-*Fig 2.6 — Website URL generated*
-*Fig 2.7 — Bucket properties*
-*Fig 2.8 — Website endpoint*
+
 
 ---
 
@@ -118,16 +105,7 @@ Amazon S3 › Buckets › demo-hw-bucket-1-313828097658-ap-south-1-an › Proper
 >
 > A CloudFront distribution takes a few minutes to deploy fully before the website becomes reachable.
 
-*Fig 3.1 — Get started*
-*Fig 3.2 — Distribution name*
-*Fig 3.3 — Specify origin*
-*Fig 3.4 — Origin access setting*
-*Fig 3.5 — Cache settings*
-*Fig 3.6 — Enable security (WAF)*
-*Fig 3.7 — Review settings*
-*Fig 3.8 — Review settings (contd.)*
-*Fig 3.9 — Distribution created*
-*Fig 3.10 — Distribution deploying*
+
 
 ---
 
@@ -137,6 +115,3 @@ Once the distribution is deployed, copy the CloudFront domain name and open it i
 
 > **NOTE**
 > Always wait for the distribution status to change from "Deploying" to "Enabled" before testing — an in-progress distribution may return an error even with a correct URL.
-
-*Fig 4.1 — CloudFront domain URL*
-*Fig 4.2 — Website loaded successfully via CloudFront*
