@@ -2,7 +2,7 @@
 
 AWS Application Load Balancer — Lab Documentation
 
-**By:** Jesswin Anto | **Date:** 24/07/2025
+**By:** Jesswin Anto 
 
 ## Objective
 
@@ -14,7 +14,6 @@ To host a website on two separate EC2 servers and use an Application Load Balanc
 
 A VPC was created with two public subnets placed in different Availability Zones to support high availability across the load balancer.
 
-*Figure 1: VPC with two public subnets in separate Availability Zones*
 
 ---
 
@@ -56,19 +55,19 @@ systemctl restart nginx
 
 ### 1) LB-web-server-1
 
-*Figure 2: LB-web-server-1 instance details*
+
 
 ### 2) Verify Server 1
 
 Open the IPv4 address in a new browser tab: **13.206.235.8**
 
-*Figure 3: Nginx welcome page served by LB-web-server-1*
+
 
 ### 3) Verify Server 2
 
 Open and launch LB-web-server-2, then open its IPv4 address in a new tab: **13.232.70.146**
 
-*Figure 4: Nginx welcome page served by LB-web-server-2*
+
 
 ---
 
@@ -109,10 +108,6 @@ Targets (2):
 
 ### Create Target Group
 
-*Figure 5: Target group configuration summary*
-*Figure 6: Target group health check settings*
-*Figure 7: Registered targets*
-*Figure 8: Target group created successfully*
 
 ---
 
@@ -145,4 +140,4 @@ Availability Zones and subnets:
 
 **Note:** Target group stickiness, if enabled, routes a client's repeated requests to the same server for a set duration. It is kept Off here so requests are distributed across both servers, which better demonstrates load balancing behavior.
 
-*Figure 9: Load balancer created and configured successfully*
+
