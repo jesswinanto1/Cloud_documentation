@@ -115,15 +115,6 @@ Here are all the selected values from the AWS Create Subnet page:
 
 ### Attaching the Internet Gateway to the VPC
 
-**Step 1:**
-
-
-
-**Step 2:**
-
-
-**Step 3:**
-
 
 ---
 
