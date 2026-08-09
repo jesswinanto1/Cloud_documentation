@@ -5,7 +5,6 @@
 | | |
 |---|---|
 | **Name** | Jesswin Anto J |
-| **Date** | 22 July 2026 |
 | **Objective** | Establish a secure connection from a local machine to a remote SSH server using two methods: the native SSH command and the PuTTY client. |
 
 **Methods Covered**
@@ -34,7 +33,7 @@
 - **chmod \<permissions\> \<file_name\> —** Changes the file's permission mode (e.g., 600 restricts access to the owner only, which SSH requires for key files).
 - **ssh -i \<private_key_file\> \<username\>@\<server_ip\> —** Establishes a secure shell connection to the remote server, using -i to specify the private key for authentication.
 
-*Figure 1: Successful SSH connection to the remote Ubuntu server.*
+
 
 ---
 
@@ -49,9 +48,7 @@ Since PuTTY does not natively support .pem files, the key must first be converte
 3. Set the parameter type to EdDSA.
 4. Click Save private key to generate the .ppk file.
 
-*Figure 2: Loading the .pem key in PuTTYgen.*
-*Figure 3: Selecting the EdDSA key parameter.*
-*Figure 4: Saving the converted private key (.ppk).*
+
 
 ### Step 2: Configuring and Launching PuTTY
 
@@ -61,12 +58,7 @@ Since PuTTY does not natively support .pem files, the key must first be converte
 4. **Select the saved session, click Load, then click Open.**
 5. Accept the server's host key fingerprint when prompted to complete the connection.
 
-*Figure 5: PuTTY session configuration.*
-*Figure 6: Specifying the private key file under SSH Auth settings.*
-*Figure 7: Saving the PuTTY session.*
-*Figure 8: Loading the saved session.*
-*Figure 9: Accepting the host key prompt.*
-*Figure 10: Successful connection established via PuTTY.*
+
 
 ---
 
