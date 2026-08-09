@@ -14,13 +14,13 @@
 
 **Step 1: Navigate to the S3 service**
 
-*Fig 1.1 — Amazon S3 console*
+
 
 **Step 2: Start bucket creation**
 - Click General purpose bucket
 - Click Create bucket
 
-*Fig 1.2 — Create bucket option*
+
 
 **Step 3: Configure and create the bucket**
 
@@ -62,8 +62,7 @@
 
 **Action: Click Create**
 
-*Fig 1.3, 1.4, 1.5, 1.6*
-*Fig 1.7 — Bucket created successfully*
+
 
 **Step 4: Create a second bucket by copying settings from the first**
 
@@ -80,9 +79,7 @@
 > **NOTE**
 > Using "Copy settings from existing bucket" saves time by reusing the encryption, versioning, and access configuration of demo-hw-bucket-1, keeping both buckets consistent.
 
-*Fig 1.8 — Copy settings dialog*
-*Fig 1.9 — Region and namespace configuration*
-*Fig 1.10 — demo-hw-bucket-2 created*
+
 
 ---
 
@@ -98,9 +95,7 @@ Amazon S3 › Buckets › demo-hw-bucket-1-313828097658-ap-south-1-an › Create
 ### Server-side encryption
 - **Server-side encryption:** Don't specify an encryption key
 
-*Fig 2.1 — Create folder settings*
-*Fig 2.2 — Folder configuration*
-*Fig 2.3 — Folder created successfully*
+
 
 ---
 
@@ -128,9 +123,7 @@ Amazon S3 › Buckets › demo-hw-bucket-1-313828097658-ap-south-1-an › demo-h
 > **NOTE**
 > Granting public-read via ACL makes the object accessible to anyone with the URL. Use this only for non-sensitive demo files, and prefer bucket policies with least-privilege access for real workloads.
 
-*Fig 3.1 — Upload configuration*
-*Fig 3.2 — ACL settings*
-*Fig 3.3 — Upload complete*
+
 
 ### Objects list — folder: demo-hw-folder-1/
 - good morning.txt — Type: txt — Last modified: August 1, 2026, 22:56:25 (UTC+05:30) — Size: 12.0 B — Storage class: Standard
@@ -142,9 +135,7 @@ Amazon S3 › Buckets › demo-hw-bucket-1-313828097658-ap-south-1-an › demo-h
 ### Make public page
 - Specified object: hello world.txt — Type: txt — Last modified: August 1, 2026, 22:59:45 (UTC+05:30) — Size: 8.0 B
 
-*Fig 3.4 — Objects list*
-*Fig 3.5 — Make public workflow*
-*Fig 3.6 — Object made public*
+
 
 ---
 
@@ -162,5 +153,4 @@ Amazon S3 › Buckets › demo-hw-bucket-1-313828097658-ap-south-1-an › demo-h
 - Region: Asia Pacific (Mumbai) / ap-south-1
 - **Copy result:** Successfully copied — 1 object, 12.0 B, 0 failed
 
-*Fig 4.1 – 4.7*
-*Fig 4.8 — Copy completed successfully*
+
