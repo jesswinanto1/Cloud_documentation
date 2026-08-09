@@ -1,6 +1,5 @@
 # VPC Creation (Automatic) — Task
 
-**Date:** 14/07/26
 **Name:** Jesswin Anto J
 
 ## Task Overview
