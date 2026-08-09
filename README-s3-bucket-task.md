@@ -6,7 +6,7 @@
 |---|---|
 | **Task** | Amazon S3 Bucket — creation, folder management, file upload, permissions, and cross-bucket copy |
 | **Name** | Jesswin Anto J |
-| **Date** | 01/08/2026 |
+
 
 ---
 
